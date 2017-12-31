@@ -13,3 +13,10 @@
 <p align="center">
   La herramienta más flexible para la generación autómatica de representaciones impresas de comprobantes electrónicos que se ajusta a los lineamientos del Sistema de Rentas Internas del Ecuador.
 </p>
+
+Collaborators
+-------------
+
+| [![](https://avatars1.githubusercontent.com/u/11875482?v=4&s=80)](https://github.com/rolandopalermo) |
+|-|
+| [@toverux](https://github.com/rolandopalermo) |
