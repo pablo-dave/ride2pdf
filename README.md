@@ -7,7 +7,7 @@
 <br>
 
 <p align="center">
-  <a href="paypal.me/rolandopalermo/5"><img alt="PayPal Donate" src="http://ionicabizau.github.io/badges/paypal.svg"></a>
+  <a href="https://paypal.me/rolandopalermo/5"><img alt="PayPal Donate" src="http://ionicabizau.github.io/badges/paypal.svg"></a>
 </p>
 
 <p align="center">
