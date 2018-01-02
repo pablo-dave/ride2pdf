@@ -49,6 +49,12 @@ También es posibile indicarle directamente la clave de acceso del comprobante e
 ```bash
 java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/rides/factura.pdf
 ```
+
+Tipos de Documentos Soportados
+-----------
+
+| `Facturas` | `Notas de Crédito` | `Notas de Débito` | `Comprobantes de Retención` | `Guías de Remisión` |
+
 JDK's soportados
 ---------------------
 | 1.6.x | 1.7.x | 1.8.x |
