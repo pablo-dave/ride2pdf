@@ -49,6 +49,11 @@ También es posibile indicarle directamente la clave de acceso del comprobante e
 ```bash
 java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/rides/factura.pdf
 ```
+JDK's soportados
+---------------------
+| JDK 1.6.x | JDK 1.7.x | JDK 1.8.x |
+|-------|------|--------|
+|  ✅   |   ✅  |   ✅   |
 Autores
 -------
 
