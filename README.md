@@ -26,6 +26,12 @@
 ----------------------
 
 - [Instalación](#instalaci%C3%B3n)
+- [Utilización](#utilizaci%C3%B3n)
+- [Ejemplos](#ejemplos)
+- [Configuración](#configuraci%C3%B3n)
+- [Tipos de documentos soportados](#tipos-de-documentos-soportados)
+- [JDK's soportados](#jdks-soportados)
+- [Autores](#autores)
 
 ## Instalación
 --------------
@@ -37,7 +43,20 @@ lincencia.key=7137022B685B467FE21D3417DBC7B227,H743E4D22C4279236474F16D14152BAE,
 ```
 4. Reemplazar el archivo logo.jpg por el logo de la empresa. La imagen debe conservar el mismo nombre, ser en formato JPG y de un tamaño recomendado de 320x210.
 
-Utilización
+## Configuración
+-------------
+Para personalizar la librería podemos editar el archivo **estilos.properties** configurando los valores que se requieran de acuerdo a la siguiente tabla:
+
+| Propiedad | Valor         | Descripción |
+| --------- | ------------- | ----------- |
+| `'t1.borde'` | r,g,b      | Define el color de los bordes de las tablas. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
+| `'t1.fuente'` | r,g,b      | Define el color del texto utilizado. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
+| `'t1.contraste'` | r,g,b      | Define el color del texto utilizado en las tablas cuyo fondo estará relleno con el color `'t1.borde'`. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
+| `'img.logo'` | logo.jpg      | Ruta del archivo utilizado como logo  |
+| `'fuente.nombre'` | tt0132m_.ttf      | Ruta del archivo para la fuente utilizado por la librería  |
+| `'lincencia.key'` |       | Licencias asociadas a R.U.C.s autorizados para generar RIDEs  |
+
+## Utilización
 -----------
 1. Para generar una RIDE desde un archivo XML, especificar la ruta del archivo XML y la ruta del archivo PDF que se generará. Puede ser un XML firmado o un XML autorizado, la librería lo detectará automáticamente.
 ```bash
@@ -48,7 +67,7 @@ java -jar ride2pdf.jar arg0 arg1
 | `'arg0'`  | Puede tomar el valor de la ruta completa del archivo XML o la clave de acceso del comprobante electrónico previamente autorizado.|
 | `'arg1'`  | Ruta completa del archivo PDF que se generará.|
 
-Ejemplos
+## Ejemplos
 --------
 Generación de una RIDE en Sistemas Operativos Windows
 ```bash
@@ -62,20 +81,7 @@ También es posibile indicarle directamente la clave de acceso del comprobante e
 ```bash
 java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/rides/factura.pdf
 ```
-Configuración
--------------
-Para personalizar la librería podemos editar el archivo **estilos.properties** configurando los valores que se requieran de acuerdo a la siguiente tabla:
-
-| Propiedad | Valor         | Descripción |
-| --------- | ------------- | ----------- |
-| `'t1.borde'` | r,g,b      | Define el color de los bordes de las tablas. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
-| `'t1.fuente'` | r,g,b      | Define el color del texto utilizado. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
-| `'t1.contraste'` | r,g,b      | Define el color del texto utilizado en las tablas cuyo fondo estará relleno con el color `'t1.borde'`. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
-| `'img.logo'` | logo.jpg      | Ruta del archivo utilizado como logo  |
-| `'fuente.nombre'` | tt0132m_.ttf      | Ruta del archivo para la fuente utilizado por la librería  |
-| `'lincencia.key'` |       | Licencias asociadas a R.U.C.s autorizados para generar RIDEs  |
-
-Tipos de Documentos Soportados
+## Tipos de Documentos Soportados
 ------------------------------
 La librería soporta los siguientes tipos de documentos:
 
@@ -87,7 +93,7 @@ La librería soporta los siguientes tipos de documentos:
 | `Comprobantes de Retención`  |  ✅ |
 | `Guías de Remisión`  |  ✅ |
 
-JDK's soportados
+## JDK's soportados
 ----------------
 La librería soporta las siguientes versiones de JDK:
 
@@ -95,7 +101,7 @@ La librería soporta las siguientes versiones de JDK:
 |-------|------|--------|
 |  ✅   |   ✅  |   ✅   |
 
-Autores
+## Autores
 -------
 
 | [![](https://avatars1.githubusercontent.com/u/11875482?v=4&s=80)](https://github.com/rolandopalermo) |
