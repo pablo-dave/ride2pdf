@@ -25,7 +25,7 @@ lincencia.key=7137022B685B467FE21D3417DBC7B227,H743E4D22C4279236474F16D14152BAE,
 
 Utilización
 -----------
-1. Para generar una RIDE desde un archivo XML, especificar la ruta del archivo XML y la ruta del archivo PDF que se generará.
+1. Para generar una RIDE desde un archivo XML, especificar la ruta del archivo XML y la ruta del archivo PDF que se generará. Puede ser un XML firmado o un XML autorizado, la librería lo detectará automáticamente.
 ```bash
 java -jar ride2pdf.jar /home/documents/factura.xml /home/rides/factura.pdf
 ```
