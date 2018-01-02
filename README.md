@@ -41,8 +41,8 @@ También es posibile indicarle directamente la clave de acceso del comprobante e
 ```bash
 java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/rides/factura.pdf
 ```
-Colaboradores
--------------
+Autores
+-------
 
 | [![](https://avatars1.githubusercontent.com/u/11875482?v=4&s=80)](https://github.com/rolandopalermo) |
 |-|
