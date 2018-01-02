@@ -14,8 +14,8 @@
   La herramienta más flexible para la generación autómatica de representaciones impresas de comprobantes electrónicos que se ajusta a los lineamientos del Sistema de Rentas Internas del Ecuador.
 </p>
 
-Installation
-------------
+Instalación
+-----------
 
 Colaboradores
 -------------
