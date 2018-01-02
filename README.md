@@ -69,15 +69,15 @@ java -jar ride2pdf.jar arg0 arg1
 ## Ejemplos
 
 Generación de una RIDE en Sistemas Operativos Windows
-```java
+```bash
 java -jar ride2pdf.jar c:\\xml\\factura.xml c:\\pdf\\factura.pdf
 ```
 Un ejemplo para distribuciones Linux
-```java
+```bash
 java -jar ride2pdf.jar /home/documents/factura.xml /home/rides/factura.pdf
 ```
 También es posibile indicarle directamente la clave de acceso del comprobante electrónico autorizado; sin embargo para esta opción es necesario tener acceso a Internet.
-```java
+```bash
 java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/rides/factura.pdf
 ```
 ## Tipos de Documentos Soportados
