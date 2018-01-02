@@ -51,6 +51,8 @@ java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/r
 ```
 Configuración
 -------------
+Para personalizar la librería podemos editar el archivo **estilos.properties** configurando los valores que se requieran de acuerdo a la siguiente tabla:
+
 | Propiedad | Valor         | Descripción |
 | --------- | ------------- | ----------- |
 | `'t1.borde'` | r,g,b      | Define el color de los bordes de las tablas. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
