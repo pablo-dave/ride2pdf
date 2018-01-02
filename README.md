@@ -53,6 +53,7 @@ java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/r
 Tipos de Documentos Soportados
 ------------------------------
 La librería soporta los siguientes tipos de documentos:
+
 | Tipo de Documento | Soporte |
 | --------|---------|
 | `Facturas`  |  ✅ |
