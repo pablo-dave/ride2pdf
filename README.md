@@ -17,7 +17,7 @@
 Instalación
 -----------
 1. Descargar el archivo <a href="https://github.com/rolandopalermo/ride2pdf/blob/master/ride2pdf.rar">ride2pdf.rar</a> y descomprimir en una carpeta.
-2. Solicita el token asociado al R.U.C. de la razón social que utilizarás para generar los documentos impresos. Para mayor información escríbenos a rolando.roc@gmail.com
+2. Solicitar el token asociado al R.U.C. de la Razón Social que se utilizará para generar los documentos impresos al correo electrónico rolando.roc@gmail.com.
 3. Abrir el archivo estilos.properties y en la propiedad lincencia.key agregar el token. Si se cuenta con más de uno, separárlos por una coma. Por ejemplo:
 ```bash
 lincencia.key=7137022B685B467FE21D3417DBC7B227,H743E4D22C4279236474F16D14152BAE,11788D2F86561A04CD496FF2DD115ADA
