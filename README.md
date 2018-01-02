@@ -23,7 +23,6 @@
 
 
 ## Tabla de contenidos
-----------------------
 
 - [Instalación](#instalaci%C3%B3n)
 - [Utilización](#utilizaci%C3%B3n)
@@ -34,7 +33,7 @@
 - [Autores](#autores)
 
 ## Instalación
---------------
+
 1. Descargar el archivo <a href="https://github.com/rolandopalermo/ride2pdf/blob/master/ride2pdf.rar">ride2pdf.rar</a> y descomprimir en una carpeta.
 2. Solicitar el token asociado al R.U.C. de la Razón Social que se utilizará para generar los documentos impresos al correo electrónico rolando.roc@gmail.com.
 3. Abrir el archivo **estilos.properties** y en la propiedad **lincencia.key** agregar el token. Si se cuenta con más de uno, separárlos por una coma. Por ejemplo:
@@ -44,7 +43,7 @@ lincencia.key=7137022B685B467FE21D3417DBC7B227,H743E4D22C4279236474F16D14152BAE,
 4. Reemplazar el archivo logo.jpg por el logo de la empresa. La imagen debe conservar el mismo nombre, ser en formato JPG y de un tamaño recomendado de 320x210.
 
 ## Configuración
--------------
+
 Para personalizar la librería podemos editar el archivo **estilos.properties** configurando los valores que se requieran de acuerdo a la siguiente tabla:
 
 | Propiedad | Valor         | Descripción |
@@ -57,7 +56,7 @@ Para personalizar la librería podemos editar el archivo **estilos.properties** 
 | `'lincencia.key'` |       | Licencias asociadas a R.U.C.s autorizados para generar RIDEs  |
 
 ## Utilización
------------
+
 1. Para generar una RIDE desde un archivo XML, especificar la ruta del archivo XML y la ruta del archivo PDF que se generará. Puede ser un XML firmado o un XML autorizado, la librería lo detectará automáticamente.
 ```bash
 java -jar ride2pdf.jar arg0 arg1
@@ -68,7 +67,7 @@ java -jar ride2pdf.jar arg0 arg1
 | `'arg1'`  | Ruta completa del archivo PDF que se generará.|
 
 ## Ejemplos
---------
+
 Generación de una RIDE en Sistemas Operativos Windows
 ```bash
 java -jar ride2pdf.jar c:\\xml\\factura.xml c:\\pdf\\factura.pdf
@@ -82,7 +81,7 @@ También es posibile indicarle directamente la clave de acceso del comprobante e
 java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/rides/factura.pdf
 ```
 ## Tipos de Documentos Soportados
-------------------------------
+
 La librería soporta los siguientes tipos de documentos:
 
 | Tipo de Documento | Soporte |
@@ -94,7 +93,7 @@ La librería soporta los siguientes tipos de documentos:
 | `Guías de Remisión`  |  ✅ |
 
 ## JDK's soportados
-----------------
+
 La librería soporta las siguientes versiones de JDK:
 
 | 1.6.x | 1.7.x | 1.8.x |
