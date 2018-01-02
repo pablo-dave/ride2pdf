@@ -54,11 +54,11 @@ Tipos de Documentos Soportados
 ------------------------------
 | Tipo de Documento | Soporte |
 | --------|---------|
-| Factura  |  ✅ |
-| Factura  |  ✅ |
-| Factura  |  ✅ |
-| Factura  |  ✅ |
-| Factura  |  ✅ |
+| `Facturas`  |  ✅ |
+| `Notas de Crédito`  |  ✅ |
+| `Notas de Débito`  |  ✅ |
+| `Comprobantes de Retención`  |  ✅ |
+| `Guías de Remisión`  |  ✅ |
 
 JDK's soportados
 ----------------
