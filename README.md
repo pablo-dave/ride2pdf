@@ -26,7 +26,7 @@
 
 - [Instalación](#instalaci%C3%B3n)
 - [Configuración](#configuraci%C3%B3n)
-- [Cómo utilizar](#utilizaci%C3%B3n)
+- [Cómo utilizar](#c%C3%B3mo-utilizar)
 - [Ejemplos](#ejemplos)
 - [Tipos de documentos soportados](#tipos-de-documentos-soportados)
 - [JDK's soportados](#jdks-soportados)
