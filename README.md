@@ -25,7 +25,7 @@
 ## Tabla de contenidos
 ----------------------
 
-- [Instalación](#Instalación)
+- [Instalación](#instalaci%C3%B3n)
 
 ## Instalación
 --------------
