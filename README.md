@@ -55,7 +55,7 @@ Para personalizar la librería podemos editar el archivo **estilos.properties** 
 | `'fuente.nombre'` | tt0132m_.ttf      | Ruta del archivo para la fuente utilizado por la librería  |
 | `'lincencia.key'` |       | Licencias asociadas a R.U.C.s autorizados para generar RIDEs  |
 
-## Utilización
+## Cómo usar
 
 1. Para generar una RIDE desde un archivo XML, especificar la ruta del archivo XML y la ruta del archivo PDF que se generará. Puede ser un XML firmado o un XML autorizado, la librería lo detectará automáticamente.
 ```bash
