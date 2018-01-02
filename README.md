@@ -27,15 +27,13 @@ lincencia.key=7137022B685B467FE21D3417DBC7B227,H743E4D22C4279236474F16D14152BAE,
 Utilización
 -----------
 1. Para generar una RIDE desde un archivo XML, especificar la ruta del archivo XML y la ruta del archivo PDF que se generará. Puede ser un XML firmado o un XML autorizado, la librería lo detectará automáticamente.
-
-Un ejemplo para distribuciones Linux
 ```bash
-java -jar ride2pdf.jar /home/documents/factura.xml /home/rides/factura.pdf
+java -jar ride2pdf.jar arg0 arg1
 ```
-Un ejemplo para Sistemas Operativos Windows
-```bash
-java -jar ride2pdf.jar c:\\xml\\factura.xml c:\\pdf\\factura.pdf
-```
+| Argumento | Description                                             |
+| --------- | ------------------------------------------------------- |
+| `'arg0'`  | Puede tomar el valor de la ruta completa del archivo XML o la clave de acceso del comprobante previamente autorizado                           |
+| `'arg1'`  | Ruta completa del archivo PDF que se generará.|
 
 También es posibile indicarle directamente la clave de acceso del comprobante electrónico autorizado; sin embargo para esta opción es necesario tener acceso a Internet.
 ```bash
