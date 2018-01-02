@@ -14,6 +14,13 @@
   La herramienta más flexible para la generación autómatica de representaciones impresas de comprobantes electrónicos que se ajusta a los lineamientos del Sistema de Rentas Internas del Ecuador.
 </p>
 
+<p align="center">
+  <a href="https://limonte.github.io/sweetalert2/">
+    <img src="https://raw.github.com/limonte/sweetalert2/master/assets/sweetalert2.gif" width="515"><br>
+    See SweetAlert2 in action ↗
+  </a>
+</p>
+
 Instalación
 -----------
 1. Descargar el archivo <a href="https://github.com/rolandopalermo/ride2pdf/blob/master/ride2pdf.rar">ride2pdf.rar</a> y descomprimir en una carpeta.
