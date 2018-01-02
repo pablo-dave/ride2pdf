@@ -14,6 +14,13 @@
   La herramienta más flexible para la generación autómatica de representaciones impresas de comprobantes electrónicos que se ajusta a los lineamientos del Sistema de Rentas Internas del Ecuador.
 </p>
 
+<p align="center">
+  <a href="https://limonte.github.io/sweetalert2/">
+    <img src="https://raw.github.com/limonte/sweetalert2/master/assets/sweetalert2.gif" width="515"><br>
+    See SweetAlert2 in action ↗
+  </a>
+</p>
+
 Instalación
 -----------
 1. Descargar el archivo <a href="https://github.com/rolandopalermo/ride2pdf/blob/master/ride2pdf.rar">ride2pdf.rar</a> y descomprimir en una carpeta.
@@ -57,7 +64,7 @@ Para personalizar la librería podemos editar el archivo **estilos.properties** 
 | --------- | ------------- | ----------- |
 | `'t1.borde'` | r,g,b      | Define el color de los bordes de las tablas. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
 | `'t1.fuente'` | r,g,b      | Define el color del texto utilizado. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
-| `'t1.contraste'` | r,g,b      | Define el color del texto utilizado en las tablas cuyo fondo estará relleno. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
+| `'t1.contraste'` | r,g,b      | Define el color del texto utilizado en las tablas cuyo fondo estará relleno con el color `'t1.borde'`. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
 | `'img.logo'` | logo.jpg      | Ruta del archivo utilizado como logo  |
 | `'fuente.nombre'` | tt0132m_.ttf      | Ruta del archivo para la fuente utilizado por la librería  |
 | `'lincencia.key'` |       | Licencias asociadas a R.U.C.s autorizados para generar RIDEs  |
