@@ -22,6 +22,7 @@ Instalación
 ```bash
 lincencia.key=7137022B685B467FE21D3417DBC7B227,H743E4D22C4279236474F16D14152BAE,11788D2F86561A04CD496FF2DD115ADA
 ```
+4. Reemplazar el archivo logo.jpg por el logo de la empresa. La imagene debe ser en formato JPG y de un tamaño recomendado de 320x210.
 
 Utilización
 -----------
