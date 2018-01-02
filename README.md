@@ -64,6 +64,8 @@ La librería soporta los siguientes tipos de documentos:
 
 JDK's soportados
 ----------------
+La librería soporta las siguientes versiones de JDK:
+
 | 1.6.x | 1.7.x | 1.8.x |
 |-------|------|--------|
 |  ✅   |   ✅  |   ✅   |
