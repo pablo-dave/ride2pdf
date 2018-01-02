@@ -21,8 +21,14 @@
   </a>
 </p>
 
-Instalación
------------
+
+## Tabla de contenidos
+----------------------
+
+- [Instalación](#Instalación)
+
+## Instalación
+--------------
 1. Descargar el archivo <a href="https://github.com/rolandopalermo/ride2pdf/blob/master/ride2pdf.rar">ride2pdf.rar</a> y descomprimir en una carpeta.
 2. Solicitar el token asociado al R.U.C. de la Razón Social que se utilizará para generar los documentos impresos al correo electrónico rolando.roc@gmail.com.
 3. Abrir el archivo **estilos.properties** y en la propiedad **lincencia.key** agregar el token. Si se cuenta con más de uno, separárlos por una coma. Por ejemplo:
