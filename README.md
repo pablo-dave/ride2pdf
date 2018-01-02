@@ -49,6 +49,18 @@ También es posibile indicarle directamente la clave de acceso del comprobante e
 ```bash
 java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/rides/factura.pdf
 ```
+Configuración
+-------------
+Para personalizar la librería podemos editar el archivo **estilos.properties** configurando los valores que se requieran de acuerdo a la siguiente tabla:
+
+| Propiedad | Valor         | Descripción |
+| --------- | ------------- | ----------- |
+| `'t1.borde'` | r,g,b      | Define el color de los bordes de las tablas. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
+| `'t1.fuente'` | r,g,b      | Define el color del texto utilizado. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
+| `'t1.contraste'` | r,g,b      | Define el color del texto utilizado en las tablas cuyo fondo estará relleno. Se expresa en formato RGB tomando valores desde 0,0,0 hasta 255,255,255 |
+| `'img.logo'` | logo.jpg      | Ruta del archivo utilizado como logo  |
+| `'fuente.nombre'` | tt0132m_.ttf      | Ruta del archivo para la fuente utilizado por la librería  |
+| `'lincencia.key'` |       | Licencias asociadas a R.U.C.s autorizados para generar RIDEs  |
 
 Tipos de Documentos Soportados
 ------------------------------
