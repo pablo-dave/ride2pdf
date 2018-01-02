@@ -15,9 +15,9 @@
 </p>
 
 <p align="center">
-  <a href="https://limonte.github.io/sweetalert2/">
-    <img src="https://raw.github.com/limonte/sweetalert2/master/assets/sweetalert2.gif" width="515"><br>
-    See SweetAlert2 in action ↗
+  <a href="https://www.youtube.com/watch?v=ox43mEPR_Ns">
+    <img src="/site/img/ride2pdf_in_action.gif" width="515"><br>
+    RIDE2PDF en acción ↗
   </a>
 </p>
 
