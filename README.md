@@ -16,6 +16,12 @@
 
 Instalación
 -----------
+1. Descargar el archivo ride2pdf.rar y descomprimir en una carpeta.
+2. Solicita el token asociado al R.U.C. de la razón social que utilizarás para generar los documentos impresos. Para mayor información escríbenos a rolando.roc@gmail.com
+3. Ejecuta el siguiente comando en la consola de tu sistema operativo:
+```bash
+java -jar ride2pdf.jar [clave de acceso o la ruta del XML] [ruta donde se guardará el archivo PDF generado]
+```
 
 Colaboradores
 -------------
