@@ -40,7 +40,7 @@
 - [Autores](#autores)
 
 ## Descarga
-Puede <a href="https://github.com/rolandopalermo/ride2pdf/blob/master/ride2pdf.rar">descargar</a> la última versión estable de RIDE2PDF para Windows, macOS y Linux.
+Puede <a href="https://github.com/rolandopalermo/ride2pdf/raw/master/ride2pdf.7z">descargar</a> la última versión estable de RIDE2PDF para Windows, macOS y Linux.
 
 ## Instalación
 
