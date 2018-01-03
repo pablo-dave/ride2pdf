@@ -34,8 +34,9 @@
 - [Configuración](#configuraci%C3%B3n)
 - [Cómo utilizar](#c%C3%B3mo-utilizar)
     - [Ejemplos](#ejemplos)
-- [Tipos de documentos soportados](#tipos-de-documentos-soportados)
-- [JDK's soportados](#jdks-soportados)
+- [Soporte](#soporte)
+    - [Tipos de documentos soportados](#tipos-de-documentos-soportados)
+    - [JDK's soportados](#jdks-soportados)
 - [Autores](#autores)
 
 ## Descarga
@@ -89,7 +90,10 @@ También es posibile indicarle directamente la clave de acceso del comprobante e
 ```bash
 java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/rides/factura.pdf
 ```
-## Tipos de Documentos Soportados
+
+## Soporte
+
+### Tipos de Documentos Soportados
 
 La librería soporta los siguientes tipos de documentos:
 
@@ -101,7 +105,7 @@ La librería soporta los siguientes tipos de documentos:
 | `Comprobantes de Retención`  |  ✅ |
 | `Guías de Remisión`  |  ✅ |
 
-## JDK's soportados
+### JDK's soportados
 
 La librería soporta las siguientes versiones de JDK:
 
