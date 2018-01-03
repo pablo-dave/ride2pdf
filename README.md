@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=ox43mEPR_Ns">
+  <a href="#">
     <img src="/site/img/ride2pdf_inaction.gif"><br>
     RIDE2PDF en acción ↗
   </a>
