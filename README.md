@@ -72,6 +72,7 @@ Para personalizar la librería podemos editar el archivo **estilos.properties** 
 java -jar ride2pdf.jar arg0 arg1
 ```
 La descripción de los argumentos es la siguiente:
+
 | Argumento | Description                                             |
 | --------- | ------------------------------------------------------- |
 | `'arg0'`  | Puede tomar el valor de la ruta completa del archivo XML o la clave de acceso del comprobante electrónico previamente autorizado.|
