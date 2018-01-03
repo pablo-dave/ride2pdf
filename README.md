@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://limonte.github.io/ride2pdf/"><img src="/site/img/ride2pdf_logo.png" alt="Markdownify" width="300"></a>
+  <a href="#"><img src="https://raw.githubusercontent.com/rolandopalermo/ride2pdf/master/site/img/ride2pdf_logo.png" alt="Markdownify" width="300"></a>
   <br>
   RIDE2PDF
   <br>
