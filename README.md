@@ -15,7 +15,8 @@
 <p align="center">
   <a href="#descarga">Descarga</a> •
   <a href="#instalaci%C3%B3n">Instalación</a> •
-  <a href="#c%C3%B3mo-utilizar">Cómo utilizar</a> •
+  <a href="#c%C3%B3mo-utilizar">Cómo utilizar</a>
+  <a href="#autores">Autores</a>
 </p>
 
 <p align="center">
