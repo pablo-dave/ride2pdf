@@ -33,7 +33,7 @@
 - [Instalación](#instalaci%C3%B3n)
 - [Configuración](#configuraci%C3%B3n)
 - [Cómo utilizar](#c%C3%B3mo-utilizar)
-- [Ejemplos](#ejemplos)
+    - [Ejemplos](#ejemplos)
 - [Tipos de documentos soportados](#tipos-de-documentos-soportados)
 - [JDK's soportados](#jdks-soportados)
 - [Autores](#autores)
@@ -75,7 +75,7 @@ java -jar ride2pdf.jar arg0 arg1
 | `'arg0'`  | Puede tomar el valor de la ruta completa del archivo XML o la clave de acceso del comprobante electrónico previamente autorizado.|
 | `'arg1'`  | Ruta completa del archivo PDF que se generará.|
 
-## Ejemplos
+### Ejemplos
 
 Generación de una RIDE en Sistemas Operativos Windows
 ```bash
