@@ -67,10 +67,11 @@ Para personalizar la librería podemos editar el archivo **estilos.properties** 
 
 ## Cómo utilizar
 
-1. Para generar una RIDE desde un archivo XML, especificar la ruta del archivo XML y la ruta del archivo PDF que se generará. Puede ser un XML firmado o un XML autorizado, la librería lo detectará automáticamente.
+1. Para generar una RIDE, se deberá ejecutar el siguiente comando desde una consola o CMD.
 ```bash
 java -jar ride2pdf.jar arg0 arg1
 ```
+La descripción de los argumentos es la siguiente:
 | Argumento | Description                                             |
 | --------- | ------------------------------------------------------- |
 | `'arg0'`  | Puede tomar el valor de la ruta completa del archivo XML o la clave de acceso del comprobante electrónico previamente autorizado.|
