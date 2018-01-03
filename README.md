@@ -83,15 +83,15 @@ La descripción de los argumentos es la siguiente:
 
 Generación de una RIDE en Sistemas Operativos Windows
 ```bash
-java -jar ride2pdf.jar c:\\xml\\factura.xml c:\\pdf\\factura.pdf
+> java -jar ride2pdf.jar c:\\xml\\factura.xml c:\\pdf\\factura.pdf
 ```
 Un ejemplo para distribuciones Linux
 ```bash
-java -jar ride2pdf.jar /home/documents/factura.xml /home/rides/factura.pdf
+> java -jar ride2pdf.jar /home/documents/factura.xml /home/rides/factura.pdf
 ```
 También es posibile indicarle directamente la clave de acceso del comprobante electrónico autorizado; sin embargo para esta opción es necesario tener acceso a Internet.
 ```bash
-java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/rides/factura.pdf
+> java -jar ride2pdf.jar 1312201721091223824600110020730000000551234567811 /home/rides/factura.pdf
 ```
 
 ## Soporte
