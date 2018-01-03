@@ -69,8 +69,8 @@ Para personalizar la librería podemos editar el archivo **estilos.properties** 
 
 1. Para generar una RIDE, se deberá ejecutar el siguiente comando desde una consola o CMD.
 ```bash
-cd [Ruta donde se descomprimió la librería]
-java -jar ride2pdf.jar arg0 arg1
+> cd [Ruta donde se descomprimió la librería]
+> java -jar ride2pdf.jar arg0 arg1
 ```
 La descripción de los argumentos es la siguiente:
 
