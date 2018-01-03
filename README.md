@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
+  <a href="#descarga">Descarga</a> •
   <a href="#instalaci%C3%B3n">Instalación</a> •
   <a href="#c%C3%B3mo-utilizar">Cómo utilizar</a> •
-  <a href="https://github.com/rolandopalermo/ride2pdf/blob/master/ride2pdf.rar">Download</a> •
 </p>
 
 <p align="center">
@@ -28,6 +28,7 @@
 
 ## Tabla de contenidos
 
+- [Descarga](#descarga)
 - [Instalación](#instalaci%C3%B3n)
 - [Configuración](#configuraci%C3%B3n)
 - [Cómo utilizar](#c%C3%B3mo-utilizar)
@@ -36,9 +37,12 @@
 - [JDK's soportados](#jdks-soportados)
 - [Autores](#autores)
 
+## Descarga
+Puede <a href="https://github.com/rolandopalermo/ride2pdf/blob/master/ride2pdf.rar">descargar</a> la última versión instalable de RIDE2PDF para Windows, macOS y Linux.
+
 ## Instalación
 
-1. Descargar el archivo <a href="https://github.com/rolandopalermo/ride2pdf/blob/master/ride2pdf.rar">ride2pdf.rar</a> y descomprimir en una carpeta.
+1. Descomprimir el archivo descargado en una carpeta nueva.
 2. Solicitar el token asociado al R.U.C. de la Razón Social que se utilizará para generar los documentos impresos al correo electrónico rolando.roc@gmail.com.
 3. Abrir el archivo **estilos.properties** y en la propiedad **lincencia.key** agregar el token. Si se cuenta con más de uno, separárlos por una coma. Por ejemplo:
 ```bash
