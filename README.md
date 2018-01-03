@@ -5,9 +5,17 @@
   RIDE2PDF
   <br>
 </h1>
-<h4 align="center">La herramienta más flexible para la generación autómatica de representaciones impresas de comprobantes electrónicos que se ajusta a los lineamientos del Sistema de Rentas Internas del Ecuador.</h4>
+
+<h4 align="center">Generación autómatica de representaciones impresas de comprobantes electrónicos.</h4>
+
 <p align="center">
   <a href="https://paypal.me/rolandopalermo/25"><img alt="PayPal Donate" src="http://ionicabizau.github.io/badges/paypal.svg"></a>
+</p>
+
+<p align="center">
+  <a href="#instalaci%C3%B3n">Instalación</a> •
+  <a href="#c%C3%B3mo-utilizar">Cómo utilizar</a> •
+  <a href="https://github.com/rolandopalermo/ride2pdf/blob/master/ride2pdf.rar">Download</a> •
 </p>
 
 <p align="center">
