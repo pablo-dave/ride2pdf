@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">Generación autómatica de representaciones impresas de comprobantes electrónicos.</h4>
+<h4 align="center">Generación autómatica de representaciones impresas de comprobantes electrónicos para Ecuador 🇪🇨.</h4>
 
 <p align="center">
   <a href="https://paypal.me/rolandopalermo/25"><img alt="PayPal Donate" src="http://ionicabizau.github.io/badges/paypal.svg"></a>
